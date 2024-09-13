@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('reset.css');
+
+body{
+    margin: auto;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inter";
+}
+
+.header{
+    background-image: url("../image/background.png");
+    position: relative;
+    display: flex;
+
+    width: 1440px;
+    height: 400px;
+
+    color: #ffffff;
+}
+
+.clock{
+    padding: 56px 165px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.clock_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.morning{
+    display: flex;
+
+    padding-bottom: 16px;
+}
+.morning img{
+    width: 23.56px;
+    heigh: 23.56px;
+    padding-right: 16.44px;
+}
+.morning h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.time{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 16px;
+}
+.time h1{
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -5px;
+}
+.time p{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.clock h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.header button{
+    position: relative;
+
+    border-radius: 28px;
+    border: 0;
+    padding: 15px 63px 13px 28px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: rgba(0, 0, 0, .5);
+    background-color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+}
+.clock_button div{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 100%;
+    background-color: #303030;
+}
+
+.footer{
+    position: relative;
+    background: rgba(225, 225, 225, 0.75);
+    backdrop-filter: blur(20.3871px);
+    padding: 74px 431px 74px 165px;
+}
+
+.footer p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #303030;
+}
+.footer h4{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+
+    color: #303030;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div{position: absolute;
+    width: 1px;
+    height: 252px;
+    left: 735px;
+    top: 74px;
+    
+    background: #303030;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.button{
+    position: absolute;
+    right: 165px;
+    bottom: 56px;
+}
